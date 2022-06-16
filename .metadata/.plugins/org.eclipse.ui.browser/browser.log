@@ -1,0 +1,14 @@
+
+6월 08, 2022 11:02:56.385 NEW SESSION
+6월 08, 2022 11:02:56.385 [17984:16532:0608/110256.376:ERROR:device_event_log_impl.cc(214)] [11:02:56.377] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 08, 2022 11:02:56.386 [17984:16532:0608/110256.380:ERROR:device_event_log_impl.cc(214)] [11:02:56.380] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 08, 2022 11:03:54.185 [17984:15424:0608/110354.185:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+6월 09, 2022 09:37:58.570 NEW SESSION
+6월 09, 2022 09:37:58.570 [29256:22484:0609/093758.569:ERROR:device_event_log_impl.cc(214)] [09:37:58.569] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 09, 2022 09:37:58.572 [29256:22484:0609/093758.572:ERROR:device_event_log_impl.cc(214)] [09:37:58.572] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 09, 2022 09:38:56.338 [29256:25276:0609/093856.337:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+6월 09, 2022 10:58:49.323 [29256:22484:0609/105849.323:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+6월 09, 2022 10:59:08.31 [29256:22484:0609/105908.031:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+6월 09, 2022 10:59:09.48 [29256:22484:0609/105909.048:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+6월 09, 2022 13:35:48.824 [29256:22484:0609/133548.823:ERROR:device_event_log_impl.cc(214)] [13:35:48.823] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)

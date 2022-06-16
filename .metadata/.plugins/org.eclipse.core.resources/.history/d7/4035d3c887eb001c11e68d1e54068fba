@@ -1,0 +1,22 @@
+package com.springbook.view.member;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.springbook.biz.member.MemberDTO;
+import com.springbook.biz.member.impl.MemberDAO;
+
+@Controller
+public class LoginController{
+
+	@RequestMapping(value="/login.do")
+	public String login(MemberDTO dto, MemberDAO memberDAO) {
+		System.out.println("로그인 처리");
+		if (memberDAO.getMember(dto) != null)return "getBoardList.do";
+		else return "login.jsp";
+	}
+}
